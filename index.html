@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>我的作品集</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Portfolio</a>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">首页</a></li>
+        <li><a href="#about" class="nav-link">关于我</a></li>
+        <li><a href="#projects" class="nav-link">作品</a></li>
+        <li><a href="#contact" class="nav-link">联系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 主页 -->
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>你好，我是<span class="highlight">张三</span></h1>
+      <p>前端开发者 & UI设计师</p>
+      <a href="#projects" class="btn">查看我的作品</a>
+    </div>
+  </section>
+
+  <!-- 关于我 -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">关于我</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>我是一名热爱前端开发与用户体验设计的开发者，拥有3年以上的项目经验。擅长使用 HTML、CSS、JavaScript 和 React 构建美观且高效的网页。</p>
+          <p>我相信简洁的设计和清晰的逻辑是优秀产品的基石。</p>
+        </div>
+        <div class="about-skills">
+          <h3>技能</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Figma</li>
+            <li>响应式设计</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品展示 -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">我的作品</h2>
+      <div class="projects-grid">
+        <div class="project-item">
+          <img src="https://via.placeholder.com/400x250" alt="项目1" />
+          <h3>电商网站设计</h3>
+          <p>一个现代化的响应式电商前端页面。</p>
+          <a href="#" target="_blank">查看详情 →</a>
+        </div>
+        <div class="project-item">
+          <img src="https://via.placeholder.com/400x250" alt="项目2" />
+          <h3>个人博客系统</h3>
+          <p>基于 React 和 Markdown 的轻量博客。</p>
+          <a href="#" target="_blank">查看详情 →</a>
+        </div>
+        <div class="project-item">
+          <img src="https://via.placeholder.com/400x250" alt="项目3" />
+          <h3>移动应用界面</h3>
+          <p>为健康类 App 设计的 UI 界面。</p>
+          <a href="#" target="_blank">查看详情 →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">联系我</h2>
+      <div class="contact-content">
+        <p>如果你对我的工作感兴趣，欢迎随时联系我！</p>
+        <form class="contact-form">
+          <input type="text" placeholder="你的名字" required />
+          <input type="email" placeholder="你的邮箱" required />
+          <textarea rows="5" placeholder="你的消息..." required></textarea>
+          <button type="submit" class="btn">发送消息</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 张三. 版权所有.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
